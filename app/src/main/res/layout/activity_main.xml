@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+<RelativeLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <ImageView
+        android:id="@+id/one_movie_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/homme" />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samuel Michaux"
+        android:textSize="31dip"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="1dip"
+        android:paddingVertical="11dip"
+        />
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Formateur et développeur FullStack (Java / Go)"
+        android:textSize="15dip"
+        android:gravity="center"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numéro de téléphone\n\n06.42.95.88.53\n"
+        android:drawableLeft="@drawable/ic_baseline_phone_iphone_42"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        android:layout_marginBottom="1dip"
+        android:paddingVertical="3dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langage Back\n\nJava - Kotlin\nGo(lang)\nSwiftUI..."
+        android:drawableLeft="@drawable/ic_baseline_arrow_back_ios_24"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        android:layout_marginBottom="1dip"
+        android:paddingVertical="3dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langage Front\n\nHtml - Css - JS\nreactJS\nAngular..."
+        android:drawableLeft="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        android:layout_marginBottom="1dip"
+        android:paddingVertical="5dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langage Front"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/pink"
+        android:layout_marginBottom="1dip"
+        android:paddingVertical="23dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
